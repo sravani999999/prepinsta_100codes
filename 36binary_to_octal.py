@@ -23,4 +23,5 @@ def decimal_to_octal(n):
         n //= 8
     print(l[::-1])
 
+
 binary_to_decimal(num)
