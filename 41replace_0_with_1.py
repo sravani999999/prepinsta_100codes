@@ -11,4 +11,18 @@ def easy_way(n):
     print(ans)
 
 
+def another_way(n):
+    n1 = n
+    i = 1
+    while n != 0:
+        x = n % 10
+        if x == 0:
+            n1 = n1 + 1 * i
+        i = i * 10
+        n //= 10
+
+    print(n1)
+
+
 easy_way(num)
+another_way(num)
